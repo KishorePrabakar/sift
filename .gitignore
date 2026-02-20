@@ -12,6 +12,17 @@ dist
 .swp
 .swo
 
-//what is the command to remove all cached git files from the repository?
-git rm -r --cached .
-git add .   
+//how to merge branches in git
+To merge branches in Git, you can follow these steps:
+1. First, make sure you are on the branch that you want to merge into (the target branch). You can switch to the target branch using the command:
+   ```
+   git checkout target-branch
+   ```
+2. Next, you can merge the source branch (the branch you want to merge from) into the target branch using the command:
+   ```
+    git merge source-branch
+    ```
+3. If there are any conflicts between the branches, Git will notify you. You will need to resolve these conflicts manually by editing the affected files. After resolving the conflicts, you can stage the changes using:
+    ```
+    git add .
+    ```

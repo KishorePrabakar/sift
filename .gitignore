@@ -1,0 +1,17 @@
+node_modules
+dist
+.env
+.DS_Store
+.vscode
+.idea
+.cache
+.eslintcache
+.prettiercache
+.log
+.tmp
+.swp
+.swo
+
+//what is the command to remove all cached git files from the repository?
+git rm -r --cached .
+git add .   

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #fbfaf9;
+  --ink: #121212;
+  --muted: #6b6b6b;
+  --border: #e9e7e5;
+  --accent: #d97706;
+  --accent-light: #fff4ed;
+}
+
+/* Minimal app styles retained from original project */
+.card {
+  background: white;
+  border-radius: 6px;
+}
+
+.input-url {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+}
+
+.btn-ghost { background: transparent; border: none; color: var(--muted); }
+
+.spinner { width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(90deg, #eee, #ddd); }
+
+.stat-label { font-size: 0.75rem; color: var(--muted); }
+.stat-value { font-size: 0.95rem; font-weight: 600; }
+
+.badge-best { background: var(--accent); color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.7rem; }
+.badge-runner { background: #f2f2f2; color: var(--muted); padding: 2px 6px; border-radius: 3px; font-size: 0.7rem; }
+
+.divider { height: 1px; background: var(--border); margin: 6px 0; }
+
+.fade-up { transform: translateY(6px); opacity: 0; animation: fadeUp 360ms ease forwards; }
+@keyframes fadeUp { to { transform: translateY(0); opacity: 1; } }

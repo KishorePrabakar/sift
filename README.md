@@ -2,9 +2,9 @@
 
 Paste 2–3 Amazon product URLs → see price, rating, and features side-by-side → spot the best deal instantly.
 
-![Sift Demo](./demo.png)
+![Visit Site](https://sift-silk.vercel.app/)
 
-## ✨ Features
+## Features
 
 - Compare up to 3 Amazon products at once
 - Side-by-side cards: price, star rating, review count, key bullet features
@@ -101,20 +101,6 @@ Browsers enforce **CORS** — you can't fetch `amazon.com` directly from fronten
 
 Made with ❤️ by [Kishore Prabakar](https://github.com/KishorePrabakar)
 
-## 📦 Deploying to Vercel
-
-This repository is prepared for Vercel static deployment (Vite build).
-
-- Build command: `npm run build`
-- Output directory: `dist`
-
-Steps to deploy:
-
-1. Push this repository to GitHub at `https://github.com/KishorePrabakar/sift`.
-2. On Vercel, create a new project and import the repository.
-3. Set the Framework Preset to `Vite` or use the build command above and `dist` as the output directory.
-4. Deploy — Vercel will run `npm install` and `npm run build`, then serve the static `dist` directory.
-
 Local test:
 
 ```bash
@@ -122,5 +108,3 @@ npm install
 npm run build
 npx serve dist    # or `vite preview` to preview the built site
 ```
-
-If you want, I can run a local build here to verify the production build succeeds.

@@ -5,6 +5,5 @@ node_modules
 *.log
 .env
 .env.*
-dist
 coverage
 /*.tgz
